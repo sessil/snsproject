@@ -16,7 +16,9 @@ public enum ErrorCode {
     INVALID_PERMISSION(HttpStatus.UNAUTHORIZED, "Permission is invalid"),
 
     ALREADY_LIKED(HttpStatus.CONFLICT, "User already liked ths post"),
-    INVALID_TOKEN(HttpStatus.UNAUTHORIZED, "Token is invalid")
+    INVALID_TOKEN(HttpStatus.UNAUTHORIZED, "Token is invalid"),
+
+    ALARM_CONNECT_ERROR(HttpStatus.INTERNAL_SERVER_ERROR, "Connecting alarm occurs error")
 
     ;
 
